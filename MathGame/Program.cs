@@ -19,28 +19,46 @@ var gameSelected = Console.ReadLine().Trim().ToLower();
 //use ctrl shift h for find and replace window
 
 //Refactor into a switch statement
-if (gameSelected == "a")
+
+
+switch (gameSelected)
 {
-    Console.WriteLine("Addition game selected.");
+    case "a":
+        AdditionGame();
+        break;
+    case "s":
+        SubtractionGame();
+        break;
+    case "m":
+        MultiplicationGame();
+        break;
+    case "d":
+        DivisionGame();
+        break;
+    case "q":
+        Console.WriteLine("Goodbye");
+        Environment.Exit(1);
+        break;
+    default:
+        Console.WriteLine("Invalid Input");
+        break;
 }
-else if (gameSelected == "s")
+
+void AdditionGame()
+{
+    Console.WriteLine("Addition game selected");
+}
+void SubtractionGame()
 {
     Console.WriteLine("Subtraction game selected");
 }
-else if (gameSelected == "m")
+
+void MultiplicationGame()
 {
     Console.WriteLine("Multiplication game selected");
 }
-else if (gameSelected == "d")
+void DivisionGame()
 {
     Console.WriteLine("Division game selected");
 }
-else if (gameSelected == "q")
-{
-    Console.WriteLine("Goodbye");
-    Environment.Exit(1);
-}
-else
-{
-    Console.WriteLine("Invalid Input");
-}
+
