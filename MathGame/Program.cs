@@ -1,5 +1,9 @@
-﻿var date = DateTime.UtcNow; // DateTime datatype. this datatype does need to be initialized unlike others and there are bunch of ways to do it. here we are calling the utcnow method to do it.
+﻿using System.ComponentModel.DataAnnotations;
+
+var date = DateTime.UtcNow; // DateTime datatype. this datatype does need to be initialized unlike others and there are bunch of ways to do it. here we are calling the utcnow method to do it.
 var name = GetName();
+List<string> games = new List<string>();
+
 
 Menu(name);
 string? GetName()
@@ -22,11 +26,11 @@ void Menu(string? s)
     {
         Console.Clear();
         Console.WriteLine(@$"What game would you like to play today? Choose from the options below:
-                            A - Addition
-                            S - Subtraction
-                            M - Multiplication
-                            D - Division 
-                            Q - Quit the program");
+A - Addition
+S - Subtraction
+M - Multiplication
+D - Division 
+Q - Quit the program");
         Console.WriteLine("---------------------------------------------");
 
         var gameSelected = Console.ReadLine().Trim().ToLower();
@@ -38,6 +42,9 @@ void Menu(string? s)
 
         switch (gameSelected)
         {
+            case "v":
+                GetGames();
+                break;
             case "a":
                 AdditionGame("Addition game ");
                 break;
@@ -102,8 +109,11 @@ void AdditionGame(string message)
             Console.ReadLine();
         }
     }
-    
+
+    AddToHistory(score, "Addition");
+
 }
+
 void SubtractionGame(string message)
 {
     
@@ -141,6 +151,8 @@ void SubtractionGame(string message)
             Console.ReadLine();
         }
     }
+    AddToHistory(score, "Subtraction");
+
 
 }
 
@@ -180,6 +192,8 @@ void MultiplicationGame(string message)
             Console.ReadLine();
         }
     }
+    AddToHistory(score, "Multiplication");
+
 
 
 }
@@ -215,6 +229,7 @@ void DivisionGame(string message)
         Console.ReadLine();
         }
     }
+    AddToHistory(score, "Division");
 
 }
 
@@ -240,3 +255,21 @@ int[] GetDivisionNumbers()
     
 }
 
+void GetGames()
+{
+    Console.Clear();
+    Console.WriteLine("Games History");
+    Console.WriteLine("-------------------------------------");
+    foreach (var game in games)
+    {
+        Console.WriteLine(game);
+    }
+    Console.WriteLine("------------------------------------\n");
+    Console.WriteLine("Press any key to return to Main Menu");
+    Console.ReadLine();
+}
+
+void AddToHistory(int gameScore, string gameType)
+    {
+        games.Add($"{DateTime.Now} - {gameType}: Score={gameScore}");
+    }
