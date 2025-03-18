@@ -4,15 +4,19 @@ internal class Menu
     GameEngine engine = new GameEngine();
     internal void ShowMenu(string? name, DateTime date)
     {
-        Console.WriteLine("---------------------------------------------------------");
+        Console.Clear();
         Console.WriteLine($"Hello {name}. It's {date.DayOfWeek}. This is your maths game. That's great that you're working on improving yourself!\n");
+        Console.WriteLine("Press any key to show menu");
+        Console.ReadLine();
         Console.WriteLine("\n");
 
         bool isGameOn = true;
 
         do
         {
-            Console.WriteLine(@$"What game would you like to play today? Choose from the options below:
+            Console.Clear();
+            Console.WriteLine(@$"
+What game would you like to play today? Choose from the options below:
 A - Addition
 S - Subtraction
 M - Multiplication

@@ -23,6 +23,8 @@ internal class GameEngine
         
         Console.WriteLine($"{firstNumber} + {secondNumber}");
         var result = Console.ReadLine();
+
+        result = Helpers.ValidateResult(result);
         
         if (int.Parse(result) == firstNumber + secondNumber)
         {
@@ -66,6 +68,8 @@ internal void SubtractionGame(string message)
         Console.WriteLine($"{firstNumber} - {secondNumber}");
         var result = Console.ReadLine();
         
+        result = Helpers.ValidateResult(result);
+
         if (int.Parse(result) == firstNumber - secondNumber)
         {
             Console.WriteLine("Your answer is correct! Type any key for the next question.");
@@ -107,6 +111,8 @@ internal void MultiplicationGame(string message)
         Console.WriteLine($"{firstNumber} * {secondNumber}");
         string? result = Console.ReadLine();
         
+        result = Helpers.ValidateResult(result);
+
         if (int.Parse(result) == firstNumber * secondNumber)
         {
             Console.WriteLine("Your answer is correct! Type any key for the next question.");
@@ -144,6 +150,9 @@ internal void DivisionGame(string message)
         Console.WriteLine($"{firstNumber} / {secondNumber}");
         var result = Console.ReadLine();
         
+        
+        result = Helpers.ValidateResult(result);
+
         if (int.Parse(result) == firstNumber / secondNumber)
         {
             Console.WriteLine("Your answer is correct! Type any key for the next question.");
@@ -165,7 +174,4 @@ internal void DivisionGame(string message)
     Helpers.AddToHistory(score, GameType.Division);
 
 }
-
-
-
 }
