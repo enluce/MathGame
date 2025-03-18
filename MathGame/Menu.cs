@@ -12,7 +12,6 @@ internal class Menu
 
         do
         {
-            Console.Clear();
             Console.WriteLine(@$"What game would you like to play today? Choose from the options below:
 A - Addition
 S - Subtraction
