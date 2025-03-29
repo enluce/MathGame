@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{939AB852-D660-41A2-BAFB-B5D056C2B064}|MathGame\\MathGame.csproj|c:\\users\\laksh\\documents\\code\\csharp\\mathgame\\mathgame\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939AB852-D660-41A2-BAFB-B5D056C2B064}|MathGame\\MathGame.csproj|solutionrelative:mathgame\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939AB852-D660-41A2-BAFB-B5D056C2B064}|MathGame\\MathGame.csproj|c:\\users\\laksh\\documents\\code\\csharp\\mathgame\\mathgame\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939AB852-D660-41A2-BAFB-B5D056C2B064}|MathGame\\MathGame.csproj|solutionrelative:mathgame\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939AB852-D660-41A2-BAFB-B5D056C2B064}|MathGame\\MathGame.csproj|c:\\users\\laksh\\documents\\code\\csharp\\mathgame\\mathgame\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939AB852-D660-41A2-BAFB-B5D056C2B064}|MathGame\\MathGame.csproj|solutionrelative:mathgame\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939AB852-D660-41A2-BAFB-B5D056C2B064}|MathGame\\MathGame.csproj|c:\\users\\laksh\\documents\\code\\csharp\\mathgame\\mathgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939AB852-D660-41A2-BAFB-B5D056C2B064}|MathGame\\MathGame.csproj|solutionrelative:mathgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{939AB852-D660-41A2-BAFB-B5D056C2B064}|MathGame\\MathGame.csproj|c:\\users\\laksh\\documents\\code\\csharp\\mathgame\\mathgame\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{939AB852-D660-41A2-BAFB-B5D056C2B064}|MathGame\\MathGame.csproj|solutionrelative:mathgame\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\MathGame\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "MathGame\\Models\\Game.cs",
+              "ToolTip": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\MathGame\\Models\\Game.cs",
+              "RelativeToolTip": "MathGame\\Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T16:31:35.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\MathGame\\GameEngine.cs",
+              "RelativeDocumentMoniker": "MathGame\\GameEngine.cs",
+              "ToolTip": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\MathGame\\GameEngine.cs",
+              "RelativeToolTip": "MathGame\\GameEngine.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:03:25.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\MathGame\\Helpers.cs",
+              "RelativeDocumentMoniker": "MathGame\\Helpers.cs",
+              "ToolTip": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\MathGame\\Helpers.cs",
+              "RelativeToolTip": "MathGame\\Helpers.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:03:13.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\MathGame\\Menu.cs",
+              "RelativeDocumentMoniker": "MathGame\\Menu.cs",
+              "ToolTip": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\MathGame\\Menu.cs",
+              "RelativeToolTip": "MathGame\\Menu.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA4wDwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:03:10.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\MathGame\\Program.cs",
+              "RelativeDocumentMoniker": "MathGame\\Program.cs",
+              "ToolTip": "C:\\Users\\Laksh\\Documents\\Code\\CSharp\\MathGame\\MathGame\\Program.cs",
+              "RelativeToolTip": "MathGame\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:03:01.374Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

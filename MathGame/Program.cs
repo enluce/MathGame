@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using MathGame;
+using MathGame.Models;
 
 var menu = new Menu();
 

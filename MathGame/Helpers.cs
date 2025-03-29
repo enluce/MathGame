@@ -1,7 +1,9 @@
 namespace MathGame;
+
+using System.Numerics;
 using MathGame.Models;
 
-internal class Helpers
+internal static class Helpers
 //Helper Methods are generally static and avoid duplicate code writing and allows us to simply use those methods.
 {
     private static List<Game> games = new List<Game>
@@ -23,27 +25,30 @@ internal class Helpers
     //Filtering and searching through datasets can be done using C#'s LINQ = Language Integrated Query.
     //Method Syntax vs Query Syntax for LINQ
     
-    
-    internal static int[] GetDivisionNumbers()
+    internal static (int, int) GetNumbers(GameType operation)
     {
-        var random = new Random();
-        var firstNumber = random.Next(0, 99);
-        var secondNumber = random.Next(0, 99);
-    
-        while (firstNumber % secondNumber != 0)
+        Random random = new Random();
+        int firstNumber;
+        int secondNumber;
+
+        if (operation == GameType.Division)
         {
-            firstNumber = random.Next(1, 99);
-            secondNumber = random.Next(1, 99);
+            do
+            {
+                firstNumber = random.Next(1, 100);
+                secondNumber = random.Next(1, 100);
+            } while (firstNumber % secondNumber != 0);
+        }
+        else
+        {
+            firstNumber = random.Next(1, 10);
+            secondNumber = random.Next(1, 10);
         }
 
-        var result = new int[2];
-
-        result[0] = firstNumber;
-        result[1] = secondNumber;
-
-        return result;
-    
+            return (firstNumber, secondNumber);
     }
+    
+
 
     internal static void PrintGames()
     {

@@ -1,3 +1,5 @@
+using MathGame.Models;
+
 namespace MathGame;
 internal class Menu
 {
@@ -38,16 +40,16 @@ Q - Quit the program");
                     Helpers.PrintGames();
                     break;
                 case "a":
-                    engine.AdditionGame("Addition game ");
+                    engine.OperateGame(GameType.Addition);
                     break;
                 case "s":
-                    engine.SubtractionGame("Subtraction game ");
+                    engine.OperateGame(GameType.Subtraction);
                     break;
                 case "m":
-                    engine.MultiplicationGame("Multiplication game ");
+                    engine.OperateGame(GameType.Multiplication);
                     break;
                 case "d":
-                    engine.DivisionGame("Division game ");
+                    engine.OperateGame(GameType.Division);
                     break;
                 case "q":
                     Console.WriteLine("Goodbye");
